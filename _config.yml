@@ -203,6 +203,13 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+# Pages
+ -scope:
+    path: ""
+    type: pages
+   values:
+    layout: single
+    author_profile:
 
 plugins:
   - jekyll-paginate
